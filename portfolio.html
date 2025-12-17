@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo"> Dev's Portfolio</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#project">project</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <!-- hero section -->
+     <section id="home" class="hero">
+        <div class="hero-content">
+            <h1> Dev Vrat Tripathi</h1>
+            <h2>I'm a 
+                <span style="--i:2;" data-text="Front-End Developer">Front-End Developer</span>
+                <span style="--i:1;" data-text="Web Developer">Web Developer</span>
+            </h2>
+            <p>Building digital experience that merge creativity withtechnology</p>
+            <p class="highlight">Specializing in front-end development and modern web development</p>
+            
+            
+             <div class="social-links">
+            <a href="https://github.com/devtripathi547-a11y"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dev-vrat-tripathi-645354237?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/1NBZhZJXhy/"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/+919794993985"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/mr__dev85?igsh=bHU4dXJrMGtwbXYy"><i class="fab fa-instagram"></i></a>
+        
+        </div>
+        <a href="#contact" class="cta-button">Download CV</a>
+        </div>
+    
+     <div class="hero-image">
+        <img src="Dev.jpg" alt="profile" class="profile-img">
+
+     </div>
+     <div id="whatsapp">
+        <a href="https://wa.me/+919794993985" target="blank" id="toggle1" class="wtsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+     </div>
+
+    </section>
+      <section id="skills" class="skills">
+        <h1 style=" text-align: center; font-size: 30px;">Technical Experise</h1>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Front-end Developer</h3>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT</li>
+
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>back-end Developer</h3>
+                <li>JAVA</li>
+                <li>MY SQL</li>   
+                <li>MONGO DB</li>          
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Accountent</h3>
+                <li>TELLT ERP.9</li>
+
+            </div>
+        </div>
+      </section>
+       <section id="contact" class="contact">
+        
+       <h1 style="text-align: center;">Lets Connet</h1>
+        <div class="contact-grid">
+            
+    <div class="contact-box">
+        <h2>Contact Information</h2>
+
+        <div class="item"><strong>📞 Phone:</strong> <br>9794993985</div>
+        <div class="item"><strong>📧 Gmail:</strong> <br>devtripathi547@gmail.com</div>
+        <div class="item"><strong>📍 Location:</strong><br> Gandhi Nagar, Mahoba, Uttar Pradesh</div>
+    </div>
+        
+        <div class="contact-container">
+        <h2>Contact Me</h2>
+        
+        <label>Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label>Your Message</label>
+        <textarea id="message" placeholder="Write your message"></textarea>
+
+        <button onclick="sendMessage()">Send Message</button>
+
+        <div class="success-message" id="successBox">
+            ✔ Your message has been sent successfully!
+        </div>
+      </div>
+     </div>
+     
+    </section>
+       
+    
+      <script src="portfolio.js"></script>
+    </body>
+</html>
